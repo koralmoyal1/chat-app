@@ -1,0 +1,18 @@
+export const user = {
+  userId: "12345",
+  firstName: "John",
+  lastName: "Doe",
+  email: "john.doe@example.com",
+};
+
+export const conversation = {
+  userId: "12345",
+  conversationId: "54321",
+  caseId: "C102345",
+  productId: "P54321",
+  productName: "Widget Pro",
+  createdAt: "2024-04-18T08:00:00Z",
+  lastUpdated: "2024-04-19T12:00:00Z",
+  status: "Open",
+  title: "I want to cancel my subscription ",
+};

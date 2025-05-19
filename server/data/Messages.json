@@ -1,0 +1,47 @@
+{
+  "conversationId": "54321",
+  "messages": [
+    {
+      "messageId": "M123",
+      "direction": "in",
+      "content": "Hi, my Widget Pro is not turning on.",
+      "timestamp": "2024-04-18T08:05:00Z"
+    },
+    {
+      "messageId": "M124",
+      "direction": "out",
+      "content": "Hello John, have you tried checking the memory allocated for your site?",
+      "timestamp": "2024-04-18T08:06:00Z"
+    },
+    {
+      "messageId": "M125",
+      "direction": "in",
+      "content": "Yes, I checked the memory, and it seems fine. The Widget Pro still won't turn on.",
+      "timestamp": "2024-04-18T08:07:00Z"
+    },
+    {
+      "messageId": "M126",
+      "direction": "out",
+      "content": "Thanks for confirming. Can you please check if there are any error messages in your browser console?",
+      "timestamp": "2024-04-18T08:08:00Z"
+    },
+    {
+      "messageId": "M127",
+      "direction": "in",
+      "content": "I just checked. There are no error messages in the console.",
+      "timestamp": "2024-04-18T08:10:00Z"
+    },
+    {
+      "messageId": "M128",
+      "direction": "out",
+      "content": "Alright. Let's try resetting the Widget Pro. Can you please go to the plugin settings and click on 'Reset to Default'?",
+      "timestamp": "2024-04-18T08:12:00Z"
+    },
+    {
+      "messageId": "M129",
+      "direction": "in",
+      "content": "I reset the settings to default, but the Widget Pro is still not turning on.",
+      "timestamp": "2024-04-18T08:14:00Z"
+    }
+  ]
+}

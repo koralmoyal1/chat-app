@@ -1,19 +1,17 @@
-require("dotenv").config();
-
 const express = require("express");
 const cors = require("cors");
 const bodyParser = require("body-parser");
 const { Pool } = require("pg");
 
 const app = express();
-const PORT = process.env.PORT || 5000;
+const PORT = 5000;
 
 const pool = new Pool({
-  user: process.env.DB_USER || "postgres",
-  host: process.env.DB_HOST || "localhost",
-  database: process.env.DB_NAME || "chat_app_db",
-  password: process.env.DB_PASSWORD || "",
-  port: process.env.DB_PORT || 5432,
+  user: "postgres",
+  host: "localhost",
+  database: "chat_app_db",
+  password: "",
+  port: 5432,
 });
 
 app.use(cors());

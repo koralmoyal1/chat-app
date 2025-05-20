@@ -25,7 +25,7 @@ function CaseDetails({ caseId, productName, createdAt, lastUpdated }) {
         </Box>
         <Box display="flex" alignItems="center" gap={1}>
           <ArticleOutlinedIcon fontSize="small" />
-          <Typography variant="body1">Product: {productName}</Typography>
+          <Typography variant="body1">Product Name: {productName}</Typography>
         </Box>
       </Box>
 
